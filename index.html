@@ -16,13 +16,28 @@
     <header class="header">
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="">About</a></li>
                 <li><a href="#">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#">Service</a></li>
+                <li><a href="#">Service</a></li> -->
+
+                <div class="btns">
+                    <button class="btnnav"><a href="#home">Home</a></button>
+                    <button class="btnnav"><a href="#about">About</a></button>
+
+                    <button class="btnnav"><a href="#education">Education</a></button>
+                    <button class="btnnav"><a href="#services">Services</a></button>
+                    <button class="btnnav"><a href="#achievements">Achievements</a></button>
+
+
+
+                    <button class="btnnav"><a href="#skills">Skills</a></button>
+                    <button class="btnnav"><a href="#projects">Projects</a></button>
+                    <button class="btnnav"><a href="#contact">Contact</a></button>
+                </div>
             </ul>
         </nav>
     </header>
@@ -44,12 +59,15 @@
             <div class="about-text">
                 <h2 class="about-topic">About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula cursus neque, id feugiat
-                    metus aliquet ac. A passionate web developer with a love for design and clean code.</p>
+                    metus aliquet ac. A passionate web developer with a love for design and clean code.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus rem ducimus iusto, iste eligendi
+                 repellendus illum adipisci quasi minima ad maiores vero dolor fugiat architecto, sapiente at facilis sint?
+                </p>
             </div>
         </div>
     </section>
 
-    
+
 
     <!-- <section class="skills" id="skills">
         <div class="container">
@@ -75,61 +93,164 @@
     </section> -->
 
 
+<!-- Education Section -->
+<section class="education" id="education">
+    <div class="container1">
+        <div class="topic-textbg">
+            <h2 class="topic-text">Education</h2>
+        </div>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>Bachelor of Computer Science</h3>
+                <p>University of Colombo - 2020 to 2024</p>
+                <p>Specialized in Software Development, Web Technologies, and Data Science.</p>
+            </div>
+            <div class="education-card">
+                <h3>Diploma in Web Development</h3>
+                <p>Code Academy - 2018 to 2020</p>
+                <p>Focused on HTML, CSS, JavaScript, and React.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+    <div class="container1">
+        <div class="topic-textbg">
+            <h2 class="topic-text">Services</h2>
+        </div>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and high-performance websites using modern technologies.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-brush service-icon"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly interfaces with a focus on usability and aesthetics.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt service-icon"></i>
+                <h3>Mobile App Development</h3>
+                <p>Creating cross-platform mobile applications with React Native.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Extra Achievements Section -->
+<section class="achievements" id="achievements">
+    <div class="container1">
+        <div class="topic-textbg">
+            <h2 class="topic-text">Extra Achievements</h2>
+        </div>
+        <div class="achievement-grid">
+            <div class="achievement-card">
+                <h3>Google Developer Scholarship</h3>
+                <p>Recipient of the Google Developer Scholarship in 2022 for excellence in coding and app development.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Hackathon Winner</h3>
+                <p>Won 1st place in the 2021 National Coding Hackathon, building a real-time event management platform.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Best Design Award</h3>
+                <p>Awarded the Best UI Design at the 2023 Web Designer Conference for a social media platform project.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
     <!-- Skills Section2 -->
 
     <section class="section-body" id="skills">
         <section class="skills">
-            <h2>Skills</h2>
+
+            <div class="skill-topic">
+                <h2 class="topic-text">Skills</h2>
+            </div>
+
             <div class="skills-container">
+
                 <div class="skill-card">
-                    <div class="skill-icon"><img src="./image/skilicon/icons8-react-native-64.png"></div>
-                    <h3>HTML5</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-html-5-96.png"></div>
+                    <h3>HTML</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
-                    <h3>CSS3</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-css-logo-96.png" alt=""></i></div>
+                    <h3>CSS</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-javascript-logo-100.png" alt=""></div>
                     <h3>JavaScript</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-java-96.png" alt=""></div>
+                    <h3>Java</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-bootstrap-96.png" alt=""></div>
+                    <h3>Boostrap</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-spring-boot-logo-96 (2).png" alt=""></div>
+                    <h3>Sprinboot</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/Axios--Streamline-Svg-Logos.png"></div>
+                    <h3>Axios</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img
+                            src="./image/skilicon/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"></i>
+                    </div>
                     <h3>React</h3>
                 </div>
 
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-html5" ></i></div>
-                    <h3>react native</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-react-native-100.png"></div>
+                    <h3>React Native</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><img src="./image/skilicon/icons8-spring-boot-logo-96 (1).png" alt=""></div>
-                    <h3>sprinboot</h3>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-                    <h3>axios</h3>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
-                    <h3>boostrap</h3>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-wind"></i></div>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-tailwindcss-96.png"></mg>
+                    </div>
                     <h3>tailwind css</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-coffee"></i></div>
-                    <h3>java</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-mysql-logo-96.png"></div>
+                    <h3>MySql</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-js"></i></div>
-                    <h3>typeScript</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-mongo-db-96.png"></div>
+                    <h3>Mongo DB</h3>
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-intellij-idea-96.png"></div>
+                    <h3>IntelliJ IDEA</h3>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-server"></i></div>
-                    <h3>expresjs</h3>
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-vs-code-96.png"></mg>
+                    </div>
+                    <h3>VS code</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/pngwing.com.png"></div>
+                    <h3>Material UI</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="./image/skilicon/icons8-github-100.png"></div>
+                    <h3>GitHub</h3>
                 </div>
             </div>
         </section>
@@ -138,7 +259,7 @@
 
 
 
-    
+
     <section class="projects" id="projects">
         <div class="container">
             <div class="topic-textbg">
@@ -148,39 +269,61 @@
             <div class="project-grid">
 
                 <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Short description about the project.</p>
-                    <img src="">
-                    <a href="#contact" class="btn">Code</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Short description about the project.</p>
-                    <a href="#contact" class="btn">Code</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Short description about the project.</p>
+                    <h3>Project</h3>
+                    <p>Short description about.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/JPEG_example_flower.jpg">
+                    </div>
                     <a href="#contact" class="btn">Code</a>
                 </div>
 
                 <div class="project-card">
-                    <h3>Project 1</h3>
+                    <h3>Project</h3>
                     <p>Short description about the project.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/Magical Blue.png">
+                    </div>
                     <a href="#contact" class="btn">Code</a>
                 </div>
+
                 <div class="project-card">
-                    <h3>Project 2</h3>
+                    <h3>Project</h3>
                     <p>Short description about the project.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/JPEG_example_flower.jpg">
+                    </div>
                     <a href="#contact" class="btn">Code</a>
                 </div>
+
                 <div class="project-card">
-                    <h3>Project 3</h3>
+                    <h3>Project</h3>
                     <p>Short description about the project.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/JPEG_example_flower.jpg">
+                    </div>
+                    <a href="#contact" class="btn">Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project</h3>
+                    <p>Short description about the project.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/JPEG_example_flower.jpg">
+                    </div>
+                    <a href="#contact" class="btn">Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project</h3>
+                    <p>Short description about the project.</p>
+                    <div class="project-img">
+                        <img src="./image/projectimg/JPEG_example_flower.jpg">
+                    </div>
                     <a href="#contact" class="btn">Code</a>
                 </div>
 
             </div>
+
         </div>
     </section>
 
@@ -192,19 +335,23 @@
                 <!-- First Column: Contact Details and Social Links -->
                 <div class="left-column">
                     <div class="contact-details">
-                        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:nirmalwishwantha@gmail.com">nirmalwishwantha@gmail.com</a></p>
+                        <p><i class="fas fa-envelope"></i> Email: <a
+                                href="mailto:nirmalwishwantha@gmail.com">nirmalwishwantha@gmail.com</a></p>
                         <p><i class="fas fa-phone-alt"></i> Phone: 0778765269</p>
                         <p><i class="fas fa-map-marker-alt"></i> Address: 123 Main Street, City, Country</p>
                     </div>
                     <div class="social-links">
                         <h3>Connect with me</h3>
-                        <a href="https://facebook.com/your-profile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://facebook.com/your-profile" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
                         <a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://instagram.com/your-profile" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/your-profile" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/your-profile" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-    
+
                 <!-- Second Column: Contact Form -->
                 <div class="right-column">
                     <div class="contact-form">
@@ -220,8 +367,8 @@
             </div>
         </div>
     </section>
-    
-    
+
+
 
 
 
