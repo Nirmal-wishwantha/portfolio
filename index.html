@@ -15,25 +15,19 @@
 
     <header class="header">
         <nav>
-            <ul class="nav-links">
-                <!-- <li><a href="#home">Home</a></li>
-                <li><a href="#about" class="">About</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#">Service</a></li> -->
-
+            <div class="nav-icon" id="nav-icon">
+                <!-- Hamburger Menu Icon -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <div class="btns">
                     <button class="btnnav"><a href="#home">Home</a></button>
                     <button class="btnnav"><a href="#about">About</a></button>
-
                     <button class="btnnav"><a href="#education">Education</a></button>
                     <button class="btnnav"><a href="#services">Services</a></button>
                     <button class="btnnav"><a href="#achievements">Achievements</a></button>
-
-
-
                     <button class="btnnav"><a href="#skills">Skills</a></button>
                     <button class="btnnav"><a href="#projects">Projects</a></button>
                     <button class="btnnav"><a href="#contact">Contact</a></button>
@@ -41,10 +35,23 @@
             </ul>
         </nav>
     </header>
+    
+    
+
+    <!-- <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="">About</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Service</a></li> -->
+
+
+
 
     <section class="hero" id="home">
         <div class="container">
-            <h1 id="home">Hello, I'm <span class="name">Nirmal Wishwantha</span></h1>
+            <h1>Hello, I'm <span>Nirmal Wishwantha</span></h1>
             <p>Web Developer | Designer | Programmer</p>
         </div>
     </section>
@@ -60,8 +67,10 @@
                 <h2 class="about-topic">About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula cursus neque, id feugiat
                     metus aliquet ac. A passionate web developer with a love for design and clean code.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus rem ducimus iusto, iste eligendi
-                 repellendus illum adipisci quasi minima ad maiores vero dolor fugiat architecto, sapiente at facilis sint?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus rem ducimus iusto,
+                    iste eligendi
+                    repellendus illum adipisci quasi minima ad maiores vero dolor fugiat architecto, sapiente at facilis
+                    sint?
                 </p>
             </div>
         </div>
@@ -93,75 +102,80 @@
     </section> -->
 
 
-<!-- Education Section -->
-<section class="education" id="education">
-    <div class="container1">
-        <div class="topic-textbg">
-            <h2 class="topic-text">Education</h2>
-        </div>
-        <div class="education-grid">
-            <div class="education-card">
-                <h3>Bachelor of Computer Science</h3>
-                <p>University of Colombo - 2020 to 2024</p>
-                <p>Specialized in Software Development, Web Technologies, and Data Science.</p>
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container1">
+            <div class="topic-textbg">
+                <h2 class="topic-text">Education</h2>
             </div>
-            <div class="education-card">
-                <h3>Diploma in Web Development</h3>
-                <p>Code Academy - 2018 to 2020</p>
-                <p>Focused on HTML, CSS, JavaScript, and React.</p>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Bachelor of Computer Science</h3>
+                    <p>University of Colombo - 2020 to 2024</p>
+                    <p>Specialized in Software Development, Web Technologies, and Data Science.</p>
+                </div>
+                <div class="education-card">
+                    <h3>Diploma in Web Development</h3>
+                    <p>Code Academy - 2018 to 2020</p>
+                    <p>Focused on HTML, CSS, JavaScript, and React.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Services Section -->
-<section class="services" id="services">
-    <div class="container1">
-        <div class="topic-textbg">
-            <h2 class="topic-text">Services</h2>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container1">
+            <div class="topic-textbg">
+                <h2 class="topic-text">Services</h2>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and high-performance websites using modern technologies.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user-friendly interfaces with a focus on usability and aesthetics.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Creating cross-platform mobile applications with React Native.</p>
+                </div>
+            </div>
         </div>
-        <div class="service-grid">
-            <div class="service-card">
-                <i class="fas fa-code service-icon"></i>
-                <h3>Web Development</h3>
-                <p>Building responsive and high-performance websites using modern technologies.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-paint-brush service-icon"></i>
-                <h3>UI/UX Design</h3>
-                <p>Designing user-friendly interfaces with a focus on usability and aesthetics.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-mobile-alt service-icon"></i>
-                <h3>Mobile App Development</h3>
-                <p>Creating cross-platform mobile applications with React Native.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Extra Achievements Section -->
-<section class="achievements" id="achievements">
-    <div class="container1">
-        <div class="topic-textbg">
-            <h2 class="topic-text">Extra Achievements</h2>
+
+
+    <!-- Extra Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container1">
+            <div class="topic-textbg">
+                <h2 class="topic-text">Extra Achievements</h2>
+            </div>
+            <div class="achievement-grid">
+                <div class="achievement-card">
+                    <h3>Google Developer Scholarship</h3>
+                    <p>Recipient of the Google Developer Scholarship in 2022 for excellence in coding and app
+                        development.</p>
+                </div>
+                <div class="achievement-card">
+                    <h3>Hackathon Winner</h3>
+                    <p>Won 1st place in the 2021 National Coding Hackathon, building a real-time event management
+                        platform.</p>
+                </div>
+                <div class="achievement-card">
+                    <h3>Best Design Award</h3>
+                    <p>Awarded the Best UI Design at the 2023 Web Designer Conference for a social media platform
+                        project.</p>
+                </div>
+            </div>
         </div>
-        <div class="achievement-grid">
-            <div class="achievement-card">
-                <h3>Google Developer Scholarship</h3>
-                <p>Recipient of the Google Developer Scholarship in 2022 for excellence in coding and app development.</p>
-            </div>
-            <div class="achievement-card">
-                <h3>Hackathon Winner</h3>
-                <p>Won 1st place in the 2021 National Coding Hackathon, building a real-time event management platform.</p>
-            </div>
-            <div class="achievement-card">
-                <h3>Best Design Award</h3>
-                <p>Awarded the Best UI Design at the 2023 Web Designer Conference for a social media platform project.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
