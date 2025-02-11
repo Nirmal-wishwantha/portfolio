@@ -14,25 +14,13 @@
 }
 
 body {
-    line-height: 1.6;
-    /* color: #fff; */
-    /* color: #F0F8FF; */
-    
+    line-height: 1.6; 
     color: #FAFDFF;
-    /* Text color for a dark theme */
-    /* background: linear-gradient(135deg, #1a1a2e, #16213e);Dark gradient for the entire background */
     background: linear-gradient(to right, #000428, #004e92);
-    /* Dark, sleek gradient */
 }
 
 
-
-
-
-
-
 /* nav */
-
 
 /* Header Styles */
 .header {
@@ -47,14 +35,13 @@ body {
     border: 1.5px solid rgba(255, 255, 255, 0.116);
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
 /* Navigation Links */
 .nav-links {
     display: flex;
-    justify-content: flex-end; /* Align the buttons to the right */
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     width: 100%;
@@ -68,7 +55,7 @@ body {
     top: 60px;
     right: 0;
     padding: 20px;
-    display: none; /* Hide by default for mobile */
+    display: none;
 }
 
 .nav-links.active .btns {
@@ -114,12 +101,12 @@ body {
 
 /* Hamburger Menu Icon */
 .nav-icon {
-    display: none; /* Hidden by default */
+    display: none;
     cursor: pointer;
     flex-direction: column;
     gap: 4px;
     width: 25px;
-    justify-content: flex-start; /* Align icon to the left */
+    justify-content: flex-start;
     margin-left: 20px;
 }
 
@@ -137,29 +124,29 @@ body {
         display: flex;
         position: absolute;
         top: 5px;
-        left: 20px; /* Position icon on the left side */
+        left: 20px;
     }
 
     .nav-links {
-        display: none; /* Hide default nav-links */
+        display: none;
        
     }
 
     .nav-links.active {
-        display: flex; /* Show nav-links when toggled */
-        flex-direction: column; /* Stack links vertically */
+        display: flex;
+        flex-direction: column;
         position: absolute;
-        top: 40px; /* Position below the icon */
-        left: 0; /* Align to the left */
-        background-color: rgba(0, 0, 0, 0.8); /* Background for the dropdown */
+        top: 40px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
         padding: 10px;
-        width: 50vw; /* Width for the dropdown */
-        border-radius: 5px; /* Optional border radius for dropdown */
-        z-index: 2; /* Ensure it sits above other elements */
+        width: 50vw;
+        border-radius: 5px;
+        z-index: 2;
     }
 
     .nav-links.active {
-        justify-content: right; /* Align items to the right */
+        justify-content: right;
     }
 
     .btnnav{
@@ -168,48 +155,6 @@ body {
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .nav-links li {
-    margin: 0 15px;
-} */
-
-/* .nav-links a:hover {
-    color: #00b4d8;
-} */
-
-
 
 
 /* Hero Section */
@@ -224,13 +169,11 @@ body {
     50% {
         opacity: 1;
         transform: translateY(0);
-        /* Reached the original position */
     }
 
     100% {
         opacity: 0;
         transform: translateY(-40px);
-        /* Moves up and fades out */
     }
 }
 
@@ -238,14 +181,11 @@ body {
 .hero h1 {
     animation: fadeInUp 2.5s ease-in-out infinite;
     opacity: 0;
-    /* Hidden initially */
 }
 
 .hero p {
     animation: fadeInUp 2.5s ease-in-out infinite 2s;
-    /* 0.5s delay for staggered effect */
     opacity: 0;
-    /* Hidden initially */
 }
 
 .hero {
@@ -258,7 +198,6 @@ body {
     text-align: center;
     border-radius: 10px 10px 10px 10px;
 }
-
 
 
 .hero .container h1 {
@@ -305,7 +244,6 @@ body {
 .contact {
     padding: 5rem 0;
     background-color: transparent;
-    /* Keep sections transparent to let the gradient show through */
 }
 
 .container {
@@ -319,7 +257,6 @@ h2 {
 }
 
 .about-text {
-    /* background-color: #028090; */
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
     border-radius: 10px;
@@ -372,18 +309,10 @@ h2 {
 
 
 
-
-
-
-
-
-
-
 /* Skills Section2 */
 
 .section-body {
     font-family: 'Arial', sans-serif;
-    /* background: linear-gradient(to right, #2b5876, #4e4376) ;  */
     color: #fff;
     display: flex;
     justify-content: center;
@@ -394,22 +323,13 @@ h2 {
 
 }
 
-.skills {
-    text-align: center;
-}
-
 .skill-topic {
-    /* color: #d9d9e0;
-    border-radius: 1rem;
-    background-color: #00ace6; */
+   
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     height: 70px;
     font-size: 2rem;
     margin-bottom: 1rem;
-    /* -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.46)); */
-    /* box-shadow: 0 0 1px #0bb0b9, 0 0 2px #0bb0b9,
-        0 0 5px #0bb0b9, 0 0 30px #0bb0b9; */
 }
 
 .skill-topic> {
@@ -420,9 +340,6 @@ h2 {
 
 .skills-container {
     display: flex;
-    /* justify-content: center; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(7, 3fr); */
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -443,7 +360,6 @@ h2 {
 
 .skill-card:hover {
     transform: scale(1.1) rotate(5deg);
-    /* Slight rotation and zoom effect */
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -461,7 +377,6 @@ h2 {
 
 .skill-card:hover::before {
     transform: scale(1.5);
-    /* Animated ripple effect */
 }
 
 .skill-icon {
@@ -516,51 +431,16 @@ h2 {
 
 
 
-
-
-/* Skills Section */
-
-/* 
-.skill-set {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.skill {
-    background: #00b4d8;
-    padding: 20px;
-    color: #fff;
-    border-radius: 5px;
-    width: 150px;
-    text-align: center;
-    margin: 10px;
-    
-}
-
-.skill:hover {
-    transform: translateY(-10px);
-    transition: transform 0.3s ease-in-out; 
-    box-shadow: 0 8px 15px rgba(163, 216, 226, 0.6);
-} */
-
-
-
-
 /* project */
 
 .topic-textbg {
-    /* background-color:#003366; */
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
-    /* -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.46)); */
     margin-bottom: 80px;
 
 }
 
 .projects {
-    /* background-color:rgb(168, 168, 168); */
-    /* margin: 10px; */
     border-radius: 10px;
 }
 
@@ -572,7 +452,6 @@ h2 {
 
 .project-card {
     background-color: rgba(255, 255, 255, 0.1);
-    /* background: #333;  */
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -617,8 +496,6 @@ h2 {
 
 
 
-
-
 /* Contact Section */
 .contact-topic {
     color: white;
@@ -642,11 +519,9 @@ h2 {
     flex-wrap: wrap;
 }
 
-/* First Column: Contact Details and Social Links */
 .left-column {
     flex: 1;
     max-width: 48%;
-    /* Adjust the width */
 }
 
 .contact-details {
@@ -691,7 +566,6 @@ h2 {
 .right-column {
     flex: 1;
     max-width: 48%;
-    /* Adjust the width */
 }
 
 .contact-form {
@@ -769,18 +643,9 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
 /* Footer */
 .footer {
     text-align: center;
-    /* background: #333; */
     color: #fff;
     padding: 1rem 0;
     backdrop-filter: blur(60px);
@@ -795,8 +660,6 @@ h2 {
 /* General Styles */
 
 
-
-
 /* Container */
 .container1 {
     width: 90%;
@@ -807,7 +670,6 @@ h2 {
 
 /* Section Headings */
 .topic-textbg {
-    /* background-color: #000; */
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -827,10 +689,8 @@ h2 {
 }
 
 .education-card {
-    /* background-color: #fff; */
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
 }
 
@@ -855,7 +715,6 @@ h2 {
 }
 
 .service-card {
-    /* background-color: #fff; */
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     text-align: center;
@@ -870,13 +729,11 @@ h2 {
 }
 
 .service-card h3 {
-    /* color: #333; */
     color: whitesmoke;
     margin-bottom: 1rem;
 }
 
 .service-card p {
-    /* color: #666; */
     color: whitesmoke;
 }
 
@@ -888,7 +745,6 @@ h2 {
 }
 
 .achievement-card {
-    /* background-color: #fff; */
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -896,18 +752,13 @@ h2 {
 }
 
 .achievement-card h3 {
-    /* color: #333; */
     color: whitesmoke;
     margin-bottom: 1rem;
 }
 
 .achievement-card p {
-    /* color: #666; */
     color: whitesmoke;
 }
-
-
-
 
 
 
